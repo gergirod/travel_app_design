@@ -1,4 +1,5 @@
-import 'package:travel_app_design/models/activity_model.dart';
+
+import 'activity_model.dart';
 
 class Destination {
   String imageUrl;
@@ -21,14 +22,14 @@ List<Destination> destinations = [
     imageUrl: 'https://www.azamara.com/sites/default/files/heros/qs-30-nov-2020-port-buenos-aires-argentina.jpg',
     city: 'Buenos Aires',
     country: 'Argentina',
-    description: 'buenos aires argentina carajo',
+    description: 'This is  a new description',
     activities: activities
   ),
   Destination(
       imageUrl: 'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
       city: 'Rio De Janeiro',
       country: 'Brasil',
-      description: 'buenos aires argentina carajo',
+      description: 'This is  a new description',
       activities: activities
   ),
 
@@ -36,7 +37,7 @@ List<Destination> destinations = [
       imageUrl: 'https://lonelyplanetwp.imgix.net/2019/08/GettyImages-559975503-aad6f8b06d13.jpg?auto=format&fit=crop&q=40&sharp=10&vib=20&ixlib=react-8.6.4&h=1060&w=1600',
       city: 'Bogota',
       country: 'Colombia',
-      description: 'buenos aires argentina carajo',
+      description: 'This is  a new description',
       activities: activities
   ),
 ];

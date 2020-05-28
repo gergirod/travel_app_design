@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travel_app_design/models/hotel_model.dart';
+import 'package:travel_app_design/domain/models/hotel_model.dart';
 
 class HotelCarousel extends StatelessWidget {
   @override

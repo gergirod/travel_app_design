@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:travel_app_design/models/activity_model.dart';
-import 'package:travel_app_design/models/destination_model.dart';
+import 'package:travel_app_design/domain/models/activity_model.dart';
+import 'package:travel_app_design/domain/models/destination_model.dart';
 
 class DestinationScreen extends StatefulWidget {
   final Destination destination;
