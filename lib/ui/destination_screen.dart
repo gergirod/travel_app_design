@@ -36,7 +36,8 @@ class _DestinationScreenState extends State<DestinationScreen> {
               children: <Widget>[
                 Container(height:  MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(30.0),
+                  borderRadius: BorderRadius.only(bottomLeft: Radius.circular(30),
+                      bottomRight: Radius.circular(30)),
                   boxShadow: [BoxShadow(
                       color: Colors.black26,
                       offset: Offset(0.0, 2.0),
@@ -45,7 +46,9 @@ class _DestinationScreenState extends State<DestinationScreen> {
                   child: Hero(
                     tag: widget.destination.imageUrl,
                     child: ClipRRect(
-                      borderRadius: BorderRadius.circular(30.0),
+                      borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(30),
+                          bottomRight: Radius.circular(30)),
                       child: Image.network(widget.destination.imageUrl,
                       fit: BoxFit.cover,),
                     ),
